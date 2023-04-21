@@ -1,0 +1,2 @@
+Channel 1 headset
+Channel 2 ref-mic
