@@ -1,0 +1,47 @@
+src/FIRFilter.doj: ../src/FIRFilter.cpp
+src/FIRFilter.doj: ../src/FIRFilter.h
+src/FIRFilter.doj: ../src/Algorithm.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdint.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/yvals.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdfix.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/stdfix_limits.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/stdfix_io.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract_math.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_math.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_base.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/r2x16_base.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/r2x16_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/raw_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/i2x16_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract2float_conv.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/complex_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/cplus/cmath
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/math.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/ymath.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/math_bf.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/ccblkfn.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdlib.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdlib_bf.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/anomaly_macros_rtl.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/adi_core.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/mc_typedef.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/FIRFilter.doj: ../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdio.h

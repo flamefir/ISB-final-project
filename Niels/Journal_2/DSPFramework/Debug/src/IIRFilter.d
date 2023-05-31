@@ -1,0 +1,41 @@
+src/IIRFilter.doj: ../src/IIRFilter.cpp
+src/IIRFilter.doj: ../src/IIRFilter.h
+src/IIRFilter.doj: ../src/Algorithm.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdfix.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/stdfix_limits.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/stdfix_io.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/math.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/yvals.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/ymath.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/math_bf.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fract_math.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_math.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_base.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/r2x16_base.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/r2x16_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/raw_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/i2x16_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/fr2x16_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/ccblkfn.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdlib.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdlib_bf.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/complex_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/anomaly_macros_rtl.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/adi_core.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/stdint.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/mc_typedef.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/builtins.h
+src/IIRFilter.doj: ../../../../../../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.10.0/Blackfin/include/sys/builtins_support.h
