@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T16:32:29.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="FsvY7E4GWdp-7HISCcdg" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T16:33:41.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="Oym7LVUnA84W9Wbtdatz" version="21.3.7" type="github">
   <diagram name="Page-1" id="avLiX0-ZLgYI8EXi2qUj">
-    <mxGraphModel dx="950" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,7 +234,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEn8FtpyVpgcIujweO89-61" value="LED(4-7) = Counter" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="FEn8FtpyVpgcIujweO89-61" value="LED(4-8) = Counter" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="485" y="760" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FEn8FtpyVpgcIujweO89-64" value="Counter++" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;fontSize=16;" vertex="1" parent="1">
@@ -263,7 +263,7 @@
             <mxPoint x="570" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEn8FtpyVpgcIujweO89-71" value="LED(4-8) = mode" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="FEn8FtpyVpgcIujweO89-71" value="LED(4-6) = mode" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="485" y="620" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FEn8FtpyVpgcIujweO89-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FEn8FtpyVpgcIujweO89-49" target="FEn8FtpyVpgcIujweO89-71">
