@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T22:27:48.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="bGZHtkSjBCDAjmZrg2Rj" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T22:41:40.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="uyfO3yWnQjkQHomFqvre" version="21.3.7" type="github">
   <diagram name="Page-1" id="mkyZBIC4lGWMKzQgHTyW">
-    <mxGraphModel dx="735" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,11 @@
         <mxCell id="U-eBqJCdHDlBayXhLPOj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U-eBqJCdHDlBayXhLPOj-1" target="U-eBqJCdHDlBayXhLPOj-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U-eBqJCdHDlBayXhLPOj-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Algorithm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ create(): virtual void&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ process(short*, short*, short): virtual void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="U-eBqJCdHDlBayXhLPOj-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Algorithm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Algorithm()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ create(): virtual void&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ process(short*, short*, short): virtual void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="230" y="300" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="U-eBqJCdHDlBayXhLPOj-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IIRFilter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- a0Inverted: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- coefficients[5]: fract&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- states[4]: fract&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ filterProcess(*fract, fract*, short): void&lt;br&gt;+ setCoefficients(fract, short): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60.96" y="470" width="279.04" height="220" as="geometry" />
+        <mxCell id="U-eBqJCdHDlBayXhLPOj-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IIRFilter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- bq: IIR_BIQUAD&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IIRfilter()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ process(short* input, short* output, short len): void&lt;br&gt;+ makePeakEQ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(const float fs,&lt;br&gt;                     &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;const float fc,&lt;br&gt;                     &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;const float Q): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makeNotchEQ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(const float fs,&lt;br&gt;                     &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;const float fc,&lt;br&gt;                     &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;const float Q)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="36" y="470" width="304" height="220" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;strokeWidth=1;endSize=16;" parent="1" source="U-eBqJCdHDlBayXhLPOj-9" target="U-eBqJCdHDlBayXhLPOj-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -25,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U-eBqJCdHDlBayXhLPOj-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WahWahPhaser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;updateEQParameters():&amp;nbsp;&lt;br&gt;- m_sampleRate: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_filterOn: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_LFOcount: short&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOnumFilt: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOrate: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOdepth: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_type: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- LFOParams: struct&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EQParams: struc&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- IIRFilter m_IIRfilter[NUM_EQ_BANDS]&lt;br&gt;- m_tmpBuf[128]: short&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WahWahPhaser(int sampleRate)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;+ process(short* input, short* output, short len): void&lt;br&gt;&amp;nbsp;+ create(): void&lt;br&gt;&amp;nbsp;+&amp;nbsp;setType(bool type): void&amp;nbsp;&lt;br&gt;&amp;nbsp;+ incParameter(PARAMETER param, float delta): float&lt;br&gt;&amp;nbsp;+ decParam(PARAM param, float delta): float&lt;br&gt;&amp;nbsp;+ calcFC(): float&lt;br&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="U-eBqJCdHDlBayXhLPOj-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WahWahPhaser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;updateEQParameters():&amp;nbsp;&lt;br&gt;- m_sampleRate: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_filterOn: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_LFOcount: short&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOnumFilt: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOrate: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t_LFOdepth: short&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_type: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- LFOParams: struct&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_LFOParams: LFOParams&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- EQParams: struct&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_EQParams[NUM_EQ_BANDS]: EQParams&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_IIRfilter[NUM_EQ_BANDS]: IIRFilter&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- m_tmpBuf[128]: short&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WahWahPhaser(int sampleRate)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp;+ process(short* input, short* output, short len): void&lt;br&gt;&amp;nbsp;+ create(): void&lt;br&gt;&amp;nbsp;+&amp;nbsp;setType(bool type): void&amp;nbsp;&lt;br&gt;&amp;nbsp;+ incParameter(PARAMETER param, float delta): float&lt;br&gt;&amp;nbsp;+ decParam(PARAM param, float delta): float&lt;br&gt;&amp;nbsp;+ calcFC(): float" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="470" width="310" height="360" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=16;targetPerimeterSpacing=6;" parent="1" source="U-eBqJCdHDlBayXhLPOj-9" target="U-eBqJCdHDlBayXhLPOj-2" edge="1">
@@ -41,7 +41,8 @@
             <mxPoint x="756.1176470588236" y="820" as="targetPoint" />
             <Array as="points">
               <mxPoint x="720" y="365" />
-              <mxPoint x="720" y="965" />
+              <mxPoint x="720" y="927" />
+              <mxPoint x="561" y="927" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,21 +50,21 @@
           <mxGeometry x="630" y="315" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Controller&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- updateUI(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- WahWahPhaser *_wahwahphaser&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Controller(WahWahPhaser *wahwahphaser)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectEffect(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modeSelect(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ incModeValue(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ decModeValue(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pressedSwitch(short sw): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ effectWahwah: bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ effectPhaser: bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ modeCounter: uint8_t&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ledCounter1: uint8_t&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ledCounter2: uint8_t&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ledCounter3: uint8_t&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ depthCounter: uint8_t&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="260" y="930" width="300" height="220" as="geometry" />
+          <mxGeometry x="260" y="880" width="300" height="300" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;endSize=16;" parent="1" source="U-eBqJCdHDlBayXhLPOj-24" target="U-eBqJCdHDlBayXhLPOj-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-24" value="«boundary»&lt;br&gt;&lt;b&gt;Switch&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="90.96000000000001" y="1015" width="110" height="50" as="geometry" />
+          <mxGeometry x="90.96000000000001" y="1005" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.684;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;endSize=16;entryPerimeter=0;" parent="1" source="U-eBqJCdHDlBayXhLPOj-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="559.9999999999999" y="1040.48" as="targetPoint" />
+            <mxPoint x="559.9999999999999" y="1029.48" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U-eBqJCdHDlBayXhLPOj-26" value="«boundary»&lt;br&gt;&lt;b&gt;LED&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="611.26" y="1016" width="110" height="50" as="geometry" />
+          <mxGeometry x="611.26" y="1005" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FJfCPhcnQLnR4iK8ZX7p-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;CD&amp;nbsp;&lt;/b&gt;Effect&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=30;" parent="1" vertex="1">
           <mxGeometry x="10" y="260" width="750" height="940" as="geometry" />
@@ -82,8 +83,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="590" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="410" y="880" />
-              <mxPoint x="535" y="880" />
+              <mxPoint x="410" y="860" />
+              <mxPoint x="535" y="860" />
             </Array>
             <mxPoint x="360" y="590" as="targetPoint" />
           </mxGeometry>
